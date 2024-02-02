@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="product-container">
+  <div class="product-image-container">
+    <img src="img-1.avif" alt="Product Image" class="product-image">
+    <div class="thumbnail-images">
+        <img src="img-2.avif" alt="Thumbnail 1" class="thumbnail-image">
+        <img src="img-3.avif" alt="Thumbnail 2" class="thumbnail-image">
+        <img src="img-4.avif" alt="Thumbnail 2" class="thumbnail-image">
+        <img src="img-5.avif" alt="Thumbnail 2" class="thumbnail-image">
+      </div>
+</div>
+ 
+
+  <div class="product-info-container">
+    <div class="product-info">
+      <p class="product-vendor">Marmeto</p>
+      <h2 class="product-title">Embrace Sideboard</h2>
+      <p class="price">Price: $12999.00</p>
+      <p class="compare-price"> $19999.00</p>
+      <p class="discount"> 35% Off</p>
+    </div>
+
+    <div class="selectors">
+      <label for="colorSelector">Color:</label>
+      <select id="colorSelector">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="blue">Violet</option>
+        <option value="blue">Pink</option>
+        
+      </select>
+       
+      
+      <label for="sizeSelector">Size:</label>
+      <select id="sizeSelector">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="medium">Large</option>
+        <option value="medium">X-Large</option>
+        <option value="medium">XX-Large</option>
+    </select>
+
+      <label for="quantitySelector">Quantity:</label>
+      <input type="number" id="quantitySelector" class="quantity-selector" value="1" min="1">
+    
+    
+   
+
+    <button onclick="addToCart()" class="add-to-cart-btn">Add to Cart</button></div>
+
+    <div id="cartMessage" class="cart-message"></div>
+  <div class="desc">
+    <p>The Embrace Sideboard is a stylish wear. 
+        With a top cloth designed to provide superior protection and look great,
+        this storage solution is both functional and attractive. It fits seamlessly into any home decor,
+        with clean lines and a timeless look. Crafted from premium materials for a combination of style, durability, and reliability.</p>
+  </div>
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+<!-- <div class="product-info">
+    <p class="product-vendor">Product Vendor</p>
+    <h2 class="product-title">Product Title</h2>
+    <p class="price">Price: $99</p>
+    <p class="compare-price">Compare at price: $199</p>
+    <p class="discount">Save 50%</p>
+  </div>
+
+  <div class="selectors">
+    <label for="colorSelector">Color:</label>
+    <select id="colorSelector">
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      
+    </select>
+
+    <label for="sizeSelector">Size:</label>
+    <select id="sizeSelector">
+      <option value="small">Small</option>
+      <option value="medium">Medium</option>
+       
+    </select>
+
+    <label for="quantitySelector">Quantity:</label>
+    <input type="number" id="quantitySelector" class="quantity-selector" value="1" min="1">
+  </div>
+
+  <button onclick="addToCart()" class="add-to-cart-btn">Add to Cart</button>
+
+  <div id="cartMessage" class="cart-message"></div> -->
